@@ -20,9 +20,9 @@ const BasketGame = sequelize.define('basket_game', {
 const Game = sequelize.define('game',{
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
     name: {type: DataTypes.STRING, unique: true, allowNull: false},
-    price: {type: DataTypes.INTEGER, allowNull: false},
+    price: {type: DataTypes.STRING, allowNull: false},
     rating: {type: DataTypes.INTEGER, defaultValue: 0},
-    image: {type: DataTypes.STRING, allowNull: false}
+    img: {type: DataTypes.STRING, allowNull: false}
 })
 
 const Category = sequelize.define('category', {
@@ -60,7 +60,7 @@ Rating.belongsTo(Game)
 Game.hasMany(BasketGame)
 BasketGame.belongsTo(Game)
 //----------------------------------------
-Game.hasMany(GameInfo, {as:'info'})
+Game.hasMany(GameInfo, {as:'info'});
 GameInfo.belongsTo(Game)
 //----------------------------------------
 module.exports = {

@@ -24,7 +24,7 @@ class UserController {
         const hashPassword = await bcrypt.hash(password, 6)
         const user = await User.create({email, role, password:hashPassword})
         const basket = await Basket.create({userId: user.id})
-        const token = generateJWT(user.id, user.email,user.role)
+        const token = generateJWT(user.id, user.email, user.role)
         
         return res.json({token})
     }
@@ -39,7 +39,7 @@ class UserController {
         }
         let comparePassword = bcrypt.compareSync(password, user.password)
         if(!comparePassword) {
-            return next(ApiError.internal('User is not found'))
+            return next(ApiError.internal('Wrong password or email'))
         }
         const token = generateJWT(user.id, user.email, user.role)
         return res.json({token})
