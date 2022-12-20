@@ -2,10 +2,8 @@
     GameShop_BackEnd
 ## Description
 
-      This project was built to help you start express API 
-      with a boilerplate which is fully ready for most of 
-      the basic back end tasks such as authorization, 
-      authentication, email confirmation and CRUD
+      This project was built to help you start express API with a boilerplate which is fully ready for most of 
+      the basic back end tasks such as authorization,authentication, email confirmation and CRUD
 
 ## Features
 
