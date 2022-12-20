@@ -1,8 +1,8 @@
 # Project name
-        GameShop_BackEnd
+    GameShop_BackEnd
 ## Description
 
-      <p><strong>This project is the API for the previous project (GameShop_FrontEnd)</strong></p>
+      This project is the API for the previous project (GameShop_FrontEnd)
 
 ## Features
 
@@ -20,14 +20,14 @@ npm install<br>
 
 ## Getting Started
 
-To test the application
+**To test the application**
 
 * Install PostgreSQL from <a href = "https://www.postgresql.org">*click*</a>
 * Create database 
 * Create .env file
 
 
-* Copy it and place in in your .env file
+* **Copy it and place in in your .env file**
     * <strong>PORT</strong> = 5000
     * <strong>DB_NAME</strong> = Your PostgreSQL database name
     * <strong>DB_USER</strong> = User of database (default - postgres)
@@ -44,4 +44,4 @@ To test the application
 Contributors names and contact info
 Feel free to contribute to the project
 
-Author - narekmanoukian
+**Author - narekmanoukian**
