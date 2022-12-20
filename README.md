@@ -9,13 +9,11 @@
 * Login and registration functions
 * Authentication with JWT token
 * Passwords are hashed for save use
-* 
-* 
-* 
+ 
 
 ### Installing
 
-git clone <a href = "https://github.com/narekmanoukian/GameShop_BackEnd.git">*click*<a/><br>
+git clone <a href = "https://github.com/narekmanoukian/GameShop_BackEnd.git" target = "_blank">*click*<a/><br>
 cd ./Server<br>
 npm install<br>
 
