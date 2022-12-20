@@ -13,11 +13,11 @@
 
 ### Installing
 
-    ```
-git clone https://github.com/narekmanoukian/GameShop_BackEnd.git
-cd Server
-npm install
-```
+   
+git clone https://github.com/narekmanoukian/GameShop_BackEnd. <br>
+cd Server<br>
+npm install<br>
+
 
 
 ## Getting Started
