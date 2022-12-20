@@ -2,7 +2,7 @@
     GameShop_BackEnd
 ## Description
 
-      This project is the API for the previous project (GameShop_FrontEnd)
+      This project was built to help you start express API with a boilerplate which is fully ready for most of the basic back end tasks such as authorization, authentication, email confirmation and CRUD
 
 ## Features
 
@@ -13,9 +13,11 @@
 
 ### Installing
 
-git clone <a href = "https://github.com/narekmanoukian/GameShop_BackEnd.git" target = "_blank">*click*<a/><br>
-cd ./Server<br>
-npm install<br>
+    ```
+git clone https://github.com/narekmanoukian/GameShop_BackEnd.git
+cd Server
+npm install
+```
 
 
 ## Getting Started
