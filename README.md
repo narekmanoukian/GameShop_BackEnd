@@ -2,13 +2,14 @@
     GameShop_BackEnd
 ## Description
 
-      This project was built to help you start express API with a boilerplate which is fully ready for most of the basic back end tasks such as authorization, authentication, email confirmation and CRUD
+      This project was built to help you start express API 
+      with a boilerplate which is fully ready for most of the basic back end tasks such as authorization, authentication, email confirmation and CRUD
 
 ## Features
 
 * Login and registration functions
 * Authentication with JWT token
-* Passwords are hashed for save use
+* Passwords are hashed for safe use
  
 
 ### Installing
@@ -42,8 +43,5 @@ npm install<br>
 * Start the application
  * npm run dev
 
-
-Contributors names and contact info
-Feel free to contribute to the project
 
 **Author - narekmanoukian**
